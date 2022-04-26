@@ -3,7 +3,7 @@ import { MovieItem } from "./MovieItem";
 export const MoviesList = ({ movies }) => (
   <section>
     <ul>
-      {movies.map((n) => (<MovieItem title={n.title} />))}
+      {movies.map((m) => (<MovieItem movie={m} />))}
     </ul>
   </section>
 );
